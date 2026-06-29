@@ -16,16 +16,16 @@ An automated screening application that matches candidate resumes (PDF/TXT) agai
 1. **Clone the repository:**
    ```bash
    git clone []
-   =>cd AI-Resume-Screener
+   cd AI-Resume-Screener
 
-2.Install the dependencies:
+2.**Install the dependencies:**
+ 
+ pip install -r requirements.txt
 
-  pip install -r requirements.txt
-
-3.Run the Backend API:
-
+3.**Run the Backend API:**
+ 
   uvicorn app_backend:app --reload
 
-4.Run the Frontend UI (Open a new terminal):
+4.**Run the Frontend UI (Open a new terminal):**
   
-  streamlit run app_frontend.py
+  streamlit run app_frontend.py 
