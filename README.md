@@ -15,7 +15,7 @@ An automated screening application that matches candidate resumes (PDF/TXT) agai
 
 1. **Clone the repository:**
    ```bash
-   git clone []
+   git clone [https://github.com/deepanshumudgal22-droid/AI-Resume-Screener]
    cd AI-Resume-Screener
 
 2.**Install the dependencies:**
