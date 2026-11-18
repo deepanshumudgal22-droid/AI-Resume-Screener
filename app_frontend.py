@@ -4,7 +4,6 @@ import requests
 st.title("AI Resume Screening & Ranking System")
 st.write("Upload candidate resumes (PDF or TXT) against your job description to see instantaneous match rankings.")
 
-# 1. Job Description Text Box
 jd_input = st.text_area("Paste Job Description Here:", height=150)
 
 # 2. File Upload Box (Updated to accept BOTH pdf and txt)
