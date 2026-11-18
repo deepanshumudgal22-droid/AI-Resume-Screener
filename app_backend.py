@@ -59,7 +59,6 @@ async def rank_candidates(job_description: str = Form(...), files: List[UploadFi
     resume_vectors = tfidf_matrix[1:]
     similarity_scores = cosine_similarity(jd_vector, resume_vectors).flatten()
     
-    # Candidate Ranking Algorithm
     rankings = []
     for i in range(len(file_names)):
         rankings.append({
